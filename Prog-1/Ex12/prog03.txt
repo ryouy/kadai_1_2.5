@@ -1,0 +1,12 @@
+//prog03_main.c 単体のコンパイル方法
+$ gcc -c prog03_main.c
+ 
+//戻り値 0 
+$ gcc -DTEST0 prog03_main.c
+ 
+//戻り値 -1 
+$ gcc -DTEST1 prog03_main.c
+ 
+//prog03_main.c,prog03_input.c組み合わせてのコンパイル方法
+$ gcc prog03_main.c prog03_input.c
+ 

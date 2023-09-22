@@ -1,0 +1,33 @@
+class Point {
+    private int x;
+    private int y;
+
+    public Point(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void move(int dx, int dy) {
+        x += dx;
+        y += dy;
+    }
+
+//////////////////OVER
+    @Override
+    public boolean equals(Object OB) {
+    if (!(OB instanceof Point)) return false;
+    Point hokas = (Point) OB;
+    boolean res=false;
+    if(x == hokas.x && y == hokas.y)   res = true;
+    return res;
+}
+
+}

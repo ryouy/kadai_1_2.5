@@ -1,0 +1,3 @@
+Becauseb even if they're sme in their field, in memory
+they're different objects. Thus by using '==', we can
+get false, but by using equals method, we can get true.

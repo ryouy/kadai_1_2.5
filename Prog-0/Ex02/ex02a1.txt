@@ -1,0 +1,9 @@
+(o) int ave;
+(x) int result#3;アンダースコア以外の記号は使えないから(#)
+(x) int while;whileは予約語であるから
+(x) int 4th;変数名の１つ目に数字は使えないから
+(o) int _5th;
+(x) int no1  no2;空白は使えないから
+(x) int no3, no4;アンダースコア以外の記号や空白は使えないから(,)
+(o) int sum_ave;
+(x) int sum-ave;;アンダースコア以外の記号は使えないから(-)

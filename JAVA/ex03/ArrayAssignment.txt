@@ -1,0 +1,8 @@
+Array b copies from Array a in line 10, this means all elements
+in array b are dynamically same as each all elements in Array a.
+And this system caused this phenmenon.
+Once any elements in Array a are changed, corresponded elements
+in array b will be changed to the same number as array a.
+In this situation, when a[0] changed to 777 in line 17, at the
+same time b[0] also changedto 777 because like I mentioned before,
+Array b is a dynamic copy of Array a.

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><Model version="5.0">
+    <Configuration>
+        <Property name="dialect" value="H2Dialect"/>
+        <Property name="ALIAS" value="dm_example"/>
+        <Property name="DRIVER" value="org.h2.Driver"/>
+        <Property name="PASSWORD" value=""/>
+        <Property name="PROMPTFORPASSWORD" value="false"/>
+        <Property name="URL" value="jdbc:h2:~/dm_example"/>
+        <Property name="USER" value="admin"/>
+    </Configuration>
+    <CustomTypes/>
+    <Domains/>
+    <Tables>
+        <Table id="3c674c78-2805-4a92-85c2-b67e8e087010" name="EMPLOYEES" schema="">
+            <Property name="LOCATION" value="72:220"/>
+            <Property name="tableType" value="CACHED"/>
+            <Attribute datatype="integer" defaultvalue="" extra="" fraction="null" id="4981a2d9-f954-4555-85ee-f9a4405803cb" name="ID" nullable="false" scale="10" size=""/>
+            <Attribute datatype="char" defaultvalue="" extra="" fraction="null" id="4cd943f4-4025-4d41-831f-311e8f53255b" name="NAME" nullable="true" scale="10" size="80"/>
+            <Attribute datatype="integer" defaultvalue="" extra="" fraction="null" id="3db8f2bd-0d00-4aab-9b0b-171946986bd9" name="AGE" nullable="true" scale="10" size=""/>
+            <Attribute datatype="integer" defaultvalue="" extra="" fraction="null" id="056bb2d3-98e5-456e-aa87-26b0c5a5bbe2" name="POSITIONID" nullable="true" scale="10" size=""/>
+            <Index id="75d2a9b9-6351-4b0e-809d-160f92e58f5a" indextype="PRIMARYKEY" name="PK">
+                <Property name="hash" value="false"/>
+                <Indexattribute attributerefid="4981a2d9-f954-4555-85ee-f9a4405803cb" id="a24b196c-ef92-4049-88b0-5a2e0f871986"/>
+            </Index>
+        </Table>
+        <Table id="ba0b44c4-9593-4b72-a5de-423d4f079da7" name="POSITIONS" schema="">
+            <Property name="LOCATION" value="408:159"/>
+            <Property name="tableType" value="CACHED"/>
+            <Attribute datatype="integer" defaultvalue="" extra="" fraction="null" id="bec1d175-d9a1-4673-8177-1799668b4f4f" name="ID" nullable="false" scale="10" size=""/>
+            <Attribute datatype="char" defaultvalue="" extra="" fraction="null" id="7a1d1392-706c-4280-bc24-7dede18f6e54" name="NAME" nullable="true" scale="10" size="50"/>
+            <Index id="dcfdf036-46ec-4f71-be3f-777fb84d9546" indextype="PRIMARYKEY" name="PK">
+                <Property name="hash" value="false"/>
+                <Indexattribute attributerefid="bec1d175-d9a1-4673-8177-1799668b4f4f" id="8bd67a0c-ad18-44ce-adc7-8a0e04afad40"/>
+            </Index>
+        </Table>
+        <Table id="6989f1fc-d09d-450d-8cf3-772061a703db" name="DEPARTMENTS" schema="">
+            <Property name="LOCATION" value="402:388"/>
+            <Property name="tableType" value="CACHED"/>
+            <Attribute datatype="integer" defaultvalue="" extra="" fraction="null" id="31d3df04-09e3-43ee-9a94-f6eab247a7a7" name="ID" nullable="false" scale="10" size=""/>
+            <Attribute datatype="char" defaultvalue="" extra="" fraction="null" id="e051e625-d68c-498e-b3e8-4cb75017d143" name="NAME" nullable="true" scale="10" size="50"/>
+            <Index id="2616f7d9-2fab-49aa-b369-aa6a3cad8e01" indextype="PRIMARYKEY" name="PK">
+                <Property name="hash" value="false"/>
+                <Indexattribute attributerefid="31d3df04-09e3-43ee-9a94-f6eab247a7a7" id="58b4aeef-d97a-4815-a261-5d281e93e117"/>
+            </Index>
+        </Table>
+        <Table id="5a7d8239-e09d-4c0f-b653-b0b0a02507fd" name="DEPTSTAFF" schema="">
+            <Property name="LOCATION" value="59:469"/>
+            <Property name="tableType" value="CACHED"/>
+            <Attribute datatype="integer" defaultvalue="" extra="" fraction="null" id="a467fe36-15af-4c40-9484-340654a3949c" name="DEPARTMENTID" nullable="true" scale="10" size=""/>
+            <Attribute datatype="integer" defaultvalue="" extra="" fraction="null" id="29164c4c-e959-44e4-80f4-97dbb9fec784" name="EMPLOYEEID" nullable="true" scale="10" size=""/>
+        </Table>
+    </Tables>
+    <Relations>
+        <Relation exportingtablerefid="ba0b44c4-9593-4b72-a5de-423d4f079da7" id="8b93318f-4809-4b1c-85e5-21e712d6ca4d" importingtablerefid="3c674c78-2805-4a92-85c2-b67e8e087010" name="POSITION" ondelete="RESTRICT" onupdate="NOTHING">
+            <Mapping exportingexpressionrefid="8bd67a0c-ad18-44ce-adc7-8a0e04afad40" importingattributerefid="056bb2d3-98e5-456e-aa87-26b0c5a5bbe2"/>
+        </Relation>
+        <Relation exportingtablerefid="3c674c78-2805-4a92-85c2-b67e8e087010" id="845febbe-3231-4289-9f8d-f6b13a46598a" importingtablerefid="5a7d8239-e09d-4c0f-b653-b0b0a02507fd" name="EMPLOYEE" ondelete="RESTRICT" onupdate="NOTHING">
+            <Mapping exportingexpressionrefid="a24b196c-ef92-4049-88b0-5a2e0f871986" importingattributerefid="29164c4c-e959-44e4-80f4-97dbb9fec784"/>
+        </Relation>
+        <Relation exportingtablerefid="6989f1fc-d09d-450d-8cf3-772061a703db" id="74c02c39-11e7-4b88-9e59-cdb8e404700d" importingtablerefid="5a7d8239-e09d-4c0f-b653-b0b0a02507fd" name="DEPARTMENT" ondelete="RESTRICT" onupdate="NOTHING">
+            <Mapping exportingexpressionrefid="58b4aeef-d97a-4815-a261-5d281e93e117" importingattributerefid="a467fe36-15af-4c40-9484-340654a3949c"/>
+        </Relation>
+    </Relations>
+    <Views/>
+    <Subjectareas/>
+    <Comments/>
+</Model>

@@ -1,0 +1,13 @@
+3 5
+scanf value = 2 
+2 4.6
+scanf value = 2
+3.2 6.7
+scanf value = 1
+5.2 8
+scanf value = 1
+3 a
+scanf value = 1
+a 5
+scanf value = 0
+

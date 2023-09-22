@@ -1,0 +1,15 @@
+If you decide to purchase a RAID array for your personal home use,
+I reccomend you to use RAID1.
+I have 2 reasons for this.
+
+First, you need at least 2 machines for RAID1, which means the
+cost is reasonable for your usage in you house.
+
+Second, as long as 1 disk works, array keeps working. Then you can
+maintain this system by changing defective disks. In short you can
+trust this system much for its perfomance and reliability. It's
+not quite good compared to others, but I think it's enough for
+personal usage.
+
+In conclusion, from the point of view of perfomance and cost,
+RAID1 is better than other systems.

@@ -1,0 +1,11 @@
+double l_array[] ： アドレスは 8 ずつ増える。
+理由は、 long型であるため。
+double d_array[] ： アドレスは 8 ずつ増える。
+理由は、 double型であるため。
+double c_array[] ： アドレスは 1 ずつ増える。
+理由は、 char型であり、int4biteであるため。
+double c_2d_array[] ： アドレスは 7 ずつ増える。
+理由は、 配列の要素数が7であるため。
+double str_array[] ： アドレスは 8 ずつ増える。
+理由は、文字列型 であるため。
+

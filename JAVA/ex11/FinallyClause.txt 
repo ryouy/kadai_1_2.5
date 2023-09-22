@@ -1,0 +1,17 @@
+1.
+When count is 2, in the try part, throw new Exception" was
+excuted.Then the catch part was excuted as count is 2. Next,
+due to "try-catch" sentence, the finally part was excuted and
+it printed that sentence.
+
+2.
+When count is 2, in try part, it excuted the break sentence due
+to its if sentence. Because of this, this program finished its
+while loop. However, finally part always is excuted whatever
+happened before the program finished the loop. So that that
+sentence was printed.
+
+3.
+After the break sentence was excuted, program finished while loop
+like I mentioned. Then the program went on the next line in main part.
+As usual, s.o.p printed that sentence.

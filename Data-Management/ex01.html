@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Exercises</title>
+  <style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">table {border-spacing: 0;border-bottom: 2px solid black;border-top: 2px solid black;}table th {padding: 3px 10px;background-color: white;border-top: none;border-left: none;border-right: none;border-bottom: 1px solid black;}table td {padding: 3px 10px;border-top: none;border-left: none;border-bottom: 1px solid black;border-right: none;}</style>
+  <!--[if lt IE 9]>
+    <script src=""></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="exercises-version-control-systems">Exercises (Version Control
+Systems)</h1>
+<h2 id="dice-game">Task 1 (10 points). Dice Game</h2>
+<ol type="1">
+<li><p>Create a new Git repository.</p></li>
+<li><p>Use any programming language to write a simple “Dice Game”
+application. The program imitates rolling two dice by generating and
+printing two random numbers (from 1 to 6) on the screen:</p>
+<pre class="text"><code>Rolling dice...
+Die 1: 5
+Die 2: 3
+Total value: 8</code></pre></li>
+<li><p>Commit this program as your first revision with the message
+<em>“Dice game: initial revision”</em>.</p></li>
+<li><p>Create a separate branch called <code>experimental</code>. Modify
+the program in this branch so it asks the user to provide a name first,
+and then greets the user as follows:</p>
+<pre class="text"><code>What is your name? 
+&gt; John
+Hello, John!</code></pre>
+<p>After greeting the user, the program imitates rolling the dice
+exactly as in the previous version. Commit this new revision with the
+message <em>“Greetings added”</em>.</p></li>
+<li><p>Add the following code to the the <code>master</code> branch: if
+the total dice value is greater than 7, the program prints the message
+<code>You won</code>, otherwise it prints the message
+<code>You lost</code>. Commit this revision with the message
+<em>“Won/lost message added”</em>.</p></li>
+<li><p>Merge <code>experimental</code> branch into the
+<code>master</code> branch. Change the code so it prints the user name
+instead of <code>You</code>. Thus, the resulting dialog would look like
+this:</p>
+<pre class="text"><code>What is your name? 
+&gt; John
+Hello, John!
+Rolling the dice...
+Die 1: 5
+Die 2: 3
+Total value: 8
+John won!</code></pre></li>
+<li><p>Commit this new revision with the message <em>“Won/lost message
+modified”</em>. Your current branch should be
+<code>master</code>.</p></li>
+</ol>
+<h2 id="section">Submission Instructions. </h2>
+<ol type="1">
+<li>Create a GitHub account for yourself.</li>
+<li>Upload your code to GitHub.</li>
+<li>Provide the link to your GitHub repository on the exercise
+submission page.</li>
+</ol>
+</body>
+</html>

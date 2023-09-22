@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Exercises</title>
+  <style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">table {border-spacing: 0;border-bottom: 2px solid black;border-top: 2px solid black;}table th {padding: 3px 10px;background-color: white;border-top: none;border-left: none;border-right: none;border-bottom: 1px solid black;}table td {padding: 3px 10px;border-top: none;border-left: none;border-bottom: 1px solid black;border-right: none;}</style>
+  <!--[if lt IE 9]>
+    <script src=""></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="exercises-database-management-systems">Exercises (Database
+Management Systems)</h1>
+<h2 id="the-employees-v2">Task 1 (10 points). The Employees v2</h2>
+<ol type="1">
+<li><p>Use Mogwai ER Designer and SQL Workbench/J to create
+<code>dm_example</code> database described in the lecture
+notes.</p></li>
+<li><p>Create a new view <code>EmployeesView</code> that contains name,
+age, position, and a department of each employee. When displayed, this
+view should yield data like this:</p>
+<figure>
+<img src="data:image/png;base64,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" alt="EmployeesView" />
+<figcaption aria-hidden="true">EmployeesView</figcaption>
+</figure></li>
+<li><p>Write SQL statements to:</p>
+<ul>
+<li><p>Print out all employees in the <code>Sales</code>
+department.</p></li>
+<li><p>Print out the number of employees in each department<br />
+(department name, number of people).</p></li>
+<li><p>Print out the names of programmers of age between 25 and 35
+years.</p></li>
+</ul></li>
+<li><p>Save your work as follows:</p>
+<ol type="1">
+<li><p>the ER diagram as a screenshot <code>dm_example.png</code> and as
+a Mogwai model <code>dm_example.mxm</code>.</p></li>
+<li><p>the SQL query for creating <code>EmployeesView</code> as a text
+file <code>EmployeesView.sql</code>.</p></li>
+<li><p>the queries made on the step 3 as a text file
+<code>queries.sql</code>.</p></li>
+</ol></li>
+</ol>
+<h2 id="section">Submission Instructions. </h2>
+<p>Place all saved files into a single archive
+<code>&lt;your-student-ID&gt;-ex2.zip</code> and upload it to the course
+Moodle.</p>
+</body>
+</html>

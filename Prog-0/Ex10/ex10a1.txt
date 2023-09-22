@@ -1,0 +1,30 @@
+合計 56
+drwx---r-x 2 s1300041 student 4096  6月 14 14:34 Ex01
+drwx---r-x 2 s1300041 student 4096  6月 23 23:30 Ex02
+drwx---r-x 2 s1300041 student 4096  6月 23 23:31 Ex03
+drwx---r-x 2 s1300041 student 4096  6月 24 14:51 Ex04
+drwx---r-x 2 s1300041 student 4096  6月 28 14:50 Ex05
+drwx---r-x 2 s1300041 student 4096  7月  1 13:17 Ex06
+drwx---r-x 2 s1300041 student 4096  7月 11 14:21 Ex07
+drwx---r-x 2 s1300041 student 4096  7月  8 12:40 Ex08
+drwx---r-x 2 s1300041 student 4096  7月 12 14:35 Ex09
+drwx---r-x 2 s1300041 student 4096  7月 11 14:36 Ex10
+drwx---r-x 2 s1300041 student 4096  6月 14 13:28 Ex11
+drwx---r-x 2 s1300041 student 4096  6月 14 13:28 Ex12
+drwx---r-x 2 s1300041 student 4096  6月 14 13:28 Ex13
+drwx---r-x 2 s1300041 student 4096  6月 14 13:28 Ex14
+100	/home/student/s1300041/Prog0/Ex01
+84	/home/student/s1300041/Prog0/Ex02
+56	/home/student/s1300041/Prog0/Ex03
+56	/home/student/s1300041/Prog0/Ex04
+52	/home/student/s1300041/Prog0/Ex05
+84	/home/student/s1300041/Prog0/Ex06
+40	/home/student/s1300041/Prog0/Ex07
+236	/home/student/s1300041/Prog0/Ex08
+36	/home/student/s1300041/Prog0/Ex09
+8	/home/student/s1300041/Prog0/Ex10
+4	/home/student/s1300041/Prog0/Ex11
+4	/home/student/s1300041/Prog0/Ex12
+4	/home/student/s1300041/Prog0/Ex13
+4	/home/student/s1300041/Prog0/Ex14
+784	/home/student/s1300041/Prog0

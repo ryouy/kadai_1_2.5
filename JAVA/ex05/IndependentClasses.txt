@@ -1,0 +1,6 @@
+1. 2 fields: x and y
+2. 4 fields: x,y,px and py
+3. 3 methods: print(), getDistance and constructor
+4. 3 methods: print(), move and constructor
+5. Yes: x and y
+6. Yes:

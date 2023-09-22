@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Exercises</title>
+  <style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">table {border-spacing: 0;border-bottom: 2px solid black;border-top: 2px solid black;}table th {padding: 3px 10px;background-color: white;border-top: none;border-left: none;border-right: none;border-bottom: 1px solid black;}table td {padding: 3px 10px;border-top: none;border-left: none;border-bottom: 1px solid black;border-right: none;}</style>
+  <!--[if lt IE 9]>
+    <script src=""></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="exercises-spreadsheet-systems">Exercises (Spreadsheet
+Systems)</h1>
+<h2 id="sales-v2">Task 1 (2 points). Sales v2</h2>
+<p>Recreate the <code>Sales</code> table, shown on the Slide 14 of the
+Lecture 4. Use conditional formatting to highlight “good” sales (more
+than 100 ice cream bars) with green background. Add “Day of Week” column
+as shown on the Slide 18, and use conditional formatting to highlight
+weekends with yellow background</p>
+<h2 id="sea-day">Task 2 (3 points). Sea Day</h2>
+<p>Sea Day is celebrated on the 3rd Monday of July. Create a formula
+that shows the date of Sea Day in any given year (the user can input the
+year into a certain cell, and the formula shows the Sea Day date in
+another cell).</p>
+<p>Check your solution using <a href="https://www.timeanddate.com/holidays/japan/sea-day">this
+table</a>.</p>
+<p>Make sure that your formula works correctly if the first day of July
+is Monday (such as in 2013).</p>
+<p>Hints:</p>
+<ol type="1">
+<li><p>The function <code>=DATE(year, month, day)</code> converts three
+numbers representing year, month, and day to a single <em>serial
+number</em> that represents a date in Excel.</p></li>
+<li><p>The function <code>=WEEKDAY(serial_number)</code> returns an
+integer [1..7] corresponding to the day of week for the given
+<code>serial_number</code> date.</p></li>
+<li><p>To calculate a date after <code>d</code> days from the given date
+<code>serial_number</code>, use the expression
+<code>serial_number + d</code>.</p></li>
+<li><p>Excel displays serial numbers as date strings (such as
+“2018年6月1日”).</p></li>
+<li><p>It might be useful to find the day of week of the 1st of July of
+the given year.</p></li>
+</ol>
+<h2 id="doctoral-students-v2">Task 3 (3 points). Doctoral Students
+v2</h2>
+<p>Here is a shortened excerpt from the University of Aizu regulations
+on PhD students:</p>
+<p><em>Students must satisfy either one of the requirements below for
+conferment of a doctoral degree: (A) the student has two or more papers
+accepted by academic journals prior to the final dissertation review, at
+least one of which must have been accepted by a journal which is
+recognized as a major journal, or (B) the student has one paper accepted
+by a major journal, and has at least 2 examined papers which have been
+published in proceedings of major international conferences.</em></p>
+<p>Prepare an Excel table with three cells where a student can enter the
+following numbers:</p>
+<ol type="1">
+<li>The number of papers published in proceedings of major international
+conferences.</li>
+<li>The number of papers published in major journals.</li>
+<li>The total number of papers published in journals.</li>
+</ol>
+<p>Create a formula that prints “Yes” or “No” depending on whether the
+student satisfies the requirements for conferment a doctoral degree.</p>
+<h2 id="correlations-v2">Task 4 (2 points). Correlations v2</h2>
+<p>Prepare a table of three columns:</p>
+<ol type="1">
+<li>Japanese prefecture names.</li>
+<li>The number of convenience stores per 100 000 people.</li>
+<li>The number of ski &amp; snowboard users per 100 people..</li>
+</ol>
+<p>Use data from these pages: <a href="https://stats-japan.com/t/kiji/19709">Number of Ski &amp;
+Snowboard Players</a> and <a href="https://stats-japan.com/t/kiji/10328">Convenience Stores</a>.</p>
+<p>Is there any correlation between these data series? Calculate
+correlation coefficient and create a scatter graph showing the
+relations.</p>
+<h2 id="section">Submission Instructions. </h2>
+<p>Create an Excel workbook with a separate sheet for each problem.
+Upload the workbook to the course Moodle.</p>
+</body>
+</html>

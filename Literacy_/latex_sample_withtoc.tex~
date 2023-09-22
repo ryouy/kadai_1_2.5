@@ -1,0 +1,109 @@
+%Texの文書において, 一行の中で % 以降は行末までコメントとなり, 出力されない
+\documentclass[platex,a4paper,12pt,dvipdfmx]{jsarticle}
+%\documentclass{...}命令では、文書の種類を指定する
+%{ }の中に文書クラス（文書の種類）を指定する
+%今回は和文の論文・レポートであるjsarticleを指定
+%[ ]の中でオプションとして、用紙サイズ、文字サイズなどを指定できる
+%今回は用紙サイズA4、文字サイズ12ptとする
+
+%\documentclass{...}と\begin{document}の間の部分をプリアンブル（前文）と呼ぶ
+%プリアンブルには文書全体の体裁に関わる命令などを書く
+\begin{document}
+これが\LaTeX 文書の本文です。\TeX や\LaTeX の文書では地の文（印刷時に表示させる文字、本文）と、印刷時の体裁を制御するための\TeX の命令を両方書くことができます。
+\verb+\LaTeX+のように、\verb+\+ から始まるのは\TeX または \LaTeX の命令です（\verb+\LaTeX+は\LaTeX のロゴを表示させる命令です）。本文中に{\TeX}や{\LaTeX}の命令を書く場合は、地の文と命令の区切りが明確になるように命令の後ろに空白を入れたり、\verb+{\LaTeX}+のように波括弧で括るなどする必要があります。
+
+\verb+\verb+命令を使うと、{\TeX}や{\LaTeX}の命令として解釈可能な文や文字であってもそのまま地の文として出力できます。以下に\verb+\verb+命令の使い方の例を示します。
+
+\begin{verbatim}
+\verb+\verb+命令を使った例です。
+\end{verbatim}
+%ここでは\verb命令の使い方の例を示すために, 次に登場するverbatim環境を利用している
+
+\texttt{+}は区切り文字で、区切り文字に挟まれた部分がそのまま出力されます。
+区切り文字は両側が同じであれば他の文字を使っても構いません。
+次の例では区切り文字として\texttt{|}を使っています（ソースを見て確認してください）。
+
+また、\verb|\begin{verbatim}|と\verb+\end{verbatim}+という二つの命令で挟んだ
+部分もそのまま地の文としてそのまま出力できます。\verb+\begin{何々}+ と \verb+\end{何々}+のように、
+ペアになった命令のことを\textgt{環境}といいます。
+
+つまり、
+\begin{quote}
+ \verb+\begin{verbatim}+ ... \verb+\end{verbatim}+
+\end{quote}
+は"verbatim"環境であり、この環境の中の文章は
+{\TeX}や{\LaTeX}の命令として解釈可能な文や文字であってもそのまま地の文として出力されることになります。
+
+\section{通し番号付き節タイトル}
+\verb+\section+命令を使って節を定義すると、節番号が自動的に付きます。
+
+\subsection{通し番号付き小節タイトル}
+節の一段下のレベルの文章構造を小節と呼びます。\verb+\subsection+命令を用いて、小節を定義することができます。小節にも番号が自動的に付きます。
+
+\subsection{通し番号付き小節タイトル}
+小節を節の中に複数設けることができます。
+
+\subsection{改行の取り扱い}
+\LaTeX 文書の中では単一の改行は無視されます。
+この性質を利用して、\LaTeX の文書を作成する際に
+任意に改行を入れることで文書を見やすくすることができます。
+また、diffのように一行づつ文書の相違を比較するコマンドもあるので、
+改行をこまめに入れると変更点の確認が行いやすくなるメリットもあります。
+
+空の行があると段落が改まります。通常の設定では、各段落の先頭に1文字分の字下げ（インデントとも言う）が入ります。
+また、\verb+\\+と書けば任意の位置にこのように \\ 改行を入れることもできます。
+
+\section*{通し番号無し節タイトル・箇条書き}
+\verb+\section*+命令で、通し番号無しの節を定義できます。subsection 以下も同様です。
+
+itemize 環境を用いて箇条書きを作ることもできます。
+\begin{itemize}
+\item 箇条書きの項目その1
+\item 箇条書きの項目その2
+\end{itemize}
+
+enumerate 環境を用いて番号付き箇条書きを作ることもできます。
+\begin{enumerate}
+\item 箇条書きの項目その1
+\item 箇条書きの項目その2
+\end{enumerate}
+
+description 環境を用いて見出し付き箇条書きを作ることもできます。
+\begin{description}
+\item[見出し1] 箇条書きの項目その1
+\item[見出し2] 箇条書きの項目その2
+\end{description}
+
+
+\section{数式}
+\LaTeX では $E=mc^2$ のように数式を簡単に表現できます。 
+\$記号で挟まれた部分は数式として解釈されます。
+
+\begin{equation}
+E=mc^2
+\end{equation}
+のように equation 環境を用いる方法もあります。
+
+和の記号 $\sum$ や積分記号 $\int$ などを使うこともできますし、分数も
+\begin{equation}
+y=\frac{1+x}{1-x}
+\end{equation}
+のように表現できます。
+
+\section{様々なサンプル}
+リテラシーのハンドアウトの中には \LaTeX の様々なサンプルが掲載されています. 巻末の付録にもサンプルがあるので, 見てみましょう。
+
+\section{参考文献とその引用}
+
+文献\cite{okumura}は日本語で読める \LaTeX の解説書です。文献\cite{bando}はオンライン \LaTeX 執筆環境の入門書です。\cite{tex1}と\cite{lamport}は \TeX と \LaTeX それぞれの開発者が執筆した解説書です。他にも\LaTeX や \TeX の参考文献は図書館にありますので、利用してみましょう。
+
+\begin{thebibliography}{99}
+\bibitem{okumura} \LaTeX2e\ 美文書作成入門 改訂第8版, 奥村 晴彦, 黒木 裕介, 技術評論社, 2020.
+\bibitem{bando} インストールいらずの \LaTeX 入門 Overleafで手軽に文書作成, 坂東 慶太, 東京図書, 2019.
+\bibitem{tex1} The \TeX book, Donald E. Knuth, Addison-Wesley Professional, 1984.
+\bibitem{lamport} 文書処理システム \LaTeX\ Leslie Lamport, アスキー出版局, 1990.
+\end{thebibliography}
+
+
+\end{document}
+%最後は必ず \end{document} で終わること

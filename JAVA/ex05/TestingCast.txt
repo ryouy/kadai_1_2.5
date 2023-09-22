@@ -1,0 +1,5 @@
+1. 1 and 2
+2. 3
+3. Because MOvingPoint is a subclass of Point.
+4. No, because test2 and test3 are different
+   type. We need convert them.

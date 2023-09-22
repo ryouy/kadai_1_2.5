@@ -1,0 +1,8 @@
+1. 2 fields: x and y
+2. 4 fields: x,y,px and py
+3. 3 methods: print(), getDistance and constructor
+4. 4 methods: print(), getDistance, move and constructor
+5. By using inheritance, it can be more simple and delete
+   duplicate code
+6. No, because as an argumet, getDistance can get only Point,
+   not MovingPoint

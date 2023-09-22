@@ -1,0 +1,124 @@
+\documentclass[platex,a4paper,12pt,dvipdfmx]{jsarticle}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{tabularx}
+\usepackage{wrapfig}
+
+\begin{document}
+\section{図の例}
+\begin{figure}[hbt]
+  \begin{center}
+    % scale,heightなどでも大きさを制御できます。
+    \includegraphics[width=24em]{/home/course/literacy/pub/sample/FIGURE/CentOS_Firefox.png}
+  \end{center}
+  \caption{\texttt{\textbackslash{}includegraphics}命令と\texttt{figure}環境を用いた図版の例}
+  \label{ex-latex:subwindow}
+\end{figure}
+
+画像の一部を切り出して表示することもできます。
+
+\begin{figure}[hbt]
+  \begin{center}
+    \includegraphics[width=24em,trim=0 720 360 72,clip]
+    {/home/course/literacy/pub/sample/FIGURE/CentOS_Firefox.png}
+  \end{center}
+  \caption{タイトル、キャプション}
+  \label{ex-latex:subsubwindow}
+\end{figure}
+
+\subsection{図番号の例}
+図\ref{ex-latex:subwindow} はFirefoxの起動画面です. 図\ref{ex-latex:subsubwindow} は図\ref{ex-latex:subwindow} の一部を切り出したものです.
+
+\section{表の例}
+\subsection{tabular環境を利用した表の例}
+
+\subsubsection{シンプルな表の例}
+
+\begin{tabular}{|r|c|l|p{5em}|}
+  \hline
+  Column1    & Column2 & Column3 & Column4\\
+  \hline
+   Right    & Left & Center &  MMMMM (5 em)\\
+  \hline
+  Aaaaaaa     & Bbbbbbb & Cccccc & Ddddddd\\
+  \hline
+\end{tabular}
+
+\subsubsection{横罫線のみのシンプルな表の例}
+
+\begin{tabular}{rclp{5em}}
+  \hline
+  Column1    & Column2 & Column3 & Column4\\
+  \hline
+   Right    & Left & Center &  MMMMM\\
+  Dd     & E & F & G\\
+  \hline
+\end{tabular}
+
+
+\subsubsection{複雑な表の例}
+\begin{tabular}[t]{|l|c|c|} %3つのカラムごとの文字揃え
+  \hline
+ \multicolumn{3}{|c|}{専門基礎科目一覧} \\
+  \hline
+  確率統計学    & 2 & 3年前期 \\ % & でカラムの区切りを, \\ で行の終わりを示す
+  幾何学I       & 2 & 2年後期 \\
+  幾何学II      & 2 & 3年前期 \\
+  量子力学      & 2 & 2年後期 \\
+  統計力学      & 2 & 2年後期 \\
+  \hline
+  単位合計      & 12 \\
+  \cline{1-2}
+\end{tabular}
+
+\subsection{tabularx環境を利用した表の例}
+表\ref{tableexample}はtabularx環境を用いて作成されているとともに、table環境の中に入れて図版のfigure環境と同様、ページ中の配置の制御とcaption命令による表タイトルの付加も行なっている。table環境はtabular環境で作成した表にも適用できる。
+
+\begin{table}[htb]
+  \caption{表のタイトル（一般的には表の上に書く）}
+  \begin{tabularx}{33zw}{| c || X |  X | X |} %ハンドアウトの例から横幅を調整している
+    \hline
+    番号 &  料理 & 材料 (4皿分) & 一皿当りのカロリー (Kcal)\\
+    \hline
+    \hline
+    1 &  カレー & 肉 200g、玉ねぎ２、人参２、じゃがいも２、市販のルーなど & 900 \\
+    \hline
+    2 &  シチュー& 肉 200g、玉ねぎ２、人参２、じゃがいも２、市販のルーなど & 900 \\
+    \hline
+    3 &  肉じゃが & 肉 200g、玉ねぎ２、人参２、じゃがいも２、糸こんにゃく200g、醤油、砂糖 & 900 \\
+    \hline
+  \end{tabularx}
+  \label{tableexample}
+\end{table}
+
+\newpage
+
+\section{図表と文章のレイアウトの例}
+
+{\LaTeX}文書の組版の上では、\texttt{figure} 環境や\texttt{table} 環境を使わない図表は大きな「文字」として扱われます。このため、それらの図表はこの画像 \includegraphics[width=4zw]{/home/course/literacy/pub/sample/FIGURE/uoa_logo.png} のように本文中に入り込む形でレイアウトされます。
+
+\begin{wrapfigure}{r}{10zw}
+\includegraphics[width=10zw]{/home/course/literacy/pub/sample/FIGURE/uoa_logo.png}
+\caption{\texttt{wrapfigure} 環境を用いた図の配置の例}\label{ex:latex_wrapfigure}
+\end{wrapfigure}
+
+\texttt{wrapfig}パッケージに含まれている \texttt{wrapfigure} 環境を使うと、図の周りに本文を回り込ませるレイアウトが実現できます。図\ref{ex:latex_wrapfigure}が\texttt{wrapfigure} 環境を用いた実例です。\verb+\begin{wrapfigure}{r}{10zw}+の\verb+{r}+でページ中に右寄せで図が配置されます。左寄せにする場合は\verb+{l}+とします。\verb+{10zw}+は図の幅を指定しています。表を回り込み配置したい場合は同じく \texttt{wrapfig}パッケージに含まれている\texttt{wraptable} 環境を使うことができます。
+
+
+
+\section{マクロの例}
+\newcommand{\uoa}{会津大学コンピュータ理工学部}
+\newcommand{\midasi}[1]{\vspace{0.5cm}\par\noindent%
+\rule[2pt]{\textwidth}{1pt}\\{\large\gt\bf{#1}}\\%
+\rule[8pt]{\textwidth}{2pt}\par\vspace{0.5cm}}
+
+以下の文章は\texttt{{\textbackslash}uoa}マクロを使って出力している。
+
+ようこそ{\uoa}へ
+
+\midasi{midasiマクロを使って見出しを作成}
+
+\texttt{{\textbackslash}midasi}マクロはフォントサイズを変え、上下に線を引いた見出し行を作り出すマクロです。マクロの定義内容のうち一部を書き換えて（例:
+\texttt{{\textbackslash}rule}の数値を変更する、字体の指定を変更するなど）、再度コンパイルしてみましょう。出力結果のどこがどの様に変化するか、観察するとマクロの仕組みの一端を理解できるでしょう。
+
+\end{document}

@@ -1,0 +1,288 @@
+F S UID          PID    PPID  C PRI  NI ADDR SZ WCHAN  STIME TTY          TIME CMD
+4 S root           1       0  0  80   0 - 59694 -      Apr11 ?        00:00:29 /usr/lib/systemd/systemd --switched-root --system --deserialize 18
+1 S root           2       0  0  80   0 -     0 -      Apr11 ?        00:00:00 [kthreadd]
+1 I root           3       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [rcu_gp]
+1 I root           4       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [rcu_par_gp]
+1 I root           6       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [kworker/0:0H-events_highpri]
+1 I root           9       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [mm_percpu_wq]
+1 S root          10       2  0  80   0 -     0 -      Apr11 ?        00:00:00 [rcu_tasks_rude_]
+1 S root          11       2  0  80   0 -     0 -      Apr11 ?        00:00:00 [rcu_tasks_trace]
+1 S root          12       2  0  80   0 -     0 -      Apr11 ?        00:00:16 [ksoftirqd/0]
+1 I root          13       2  0  80   0 -     0 -      Apr11 ?        00:06:23 [rcu_sched]
+1 S root          14       2  0 -40   - -     0 -      Apr11 ?        00:00:00 [migration/0]
+5 S root          15       2  0 -40   - -     0 -      Apr11 ?        00:00:00 [watchdog/0]
+1 S root          16       2  0  80   0 -     0 -      Apr11 ?        00:00:00 [cpuhp/0]
+1 S root          17       2  0  80   0 -     0 -      Apr11 ?        00:00:00 [cpuhp/1]
+5 S root          18       2  0 -40   - -     0 -      Apr11 ?        00:00:00 [watchdog/1]
+1 S root          19       2  0 -40   - -     0 -      Apr11 ?        00:00:00 [migration/1]
+1 S root          20       2  0  80   0 -     0 -      Apr11 ?        00:00:17 [ksoftirqd/1]
+1 I root          22       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [kworker/1:0H-events_highpri]
+1 S root          23       2  0  80   0 -     0 -      Apr11 ?        00:00:00 [cpuhp/2]
+5 S root          24       2  0 -40   - -     0 -      Apr11 ?        00:00:00 [watchdog/2]
+1 S root          25       2  0 -40   - -     0 -      Apr11 ?        00:00:00 [migration/2]
+1 S root          26       2  0  80   0 -     0 -      Apr11 ?        00:00:17 [ksoftirqd/2]
+1 I root          28       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [kworker/2:0H-events_highpri]
+1 S root          29       2  0  80   0 -     0 -      Apr11 ?        00:00:00 [cpuhp/3]
+5 S root          30       2  0 -40   - -     0 -      Apr11 ?        00:00:00 [watchdog/3]
+1 S root          31       2  0 -40   - -     0 -      Apr11 ?        00:00:00 [migration/3]
+1 S root          32       2  0  80   0 -     0 -      Apr11 ?        00:00:16 [ksoftirqd/3]
+1 I root          34       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [kworker/3:0H-events_highpri]
+1 S root          35       2  0  80   0 -     0 -      Apr11 ?        00:00:00 [cpuhp/4]
+5 S root          36       2  0 -40   - -     0 -      Apr11 ?        00:00:00 [watchdog/4]
+1 S root          37       2  0 -40   - -     0 -      Apr11 ?        00:00:00 [migration/4]
+1 S root          38       2  0  80   0 -     0 -      Apr11 ?        00:00:16 [ksoftirqd/4]
+1 I root          40       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [kworker/4:0H-events_highpri]
+1 S root          41       2  0  80   0 -     0 -      Apr11 ?        00:00:00 [cpuhp/5]
+5 S root          42       2  0 -40   - -     0 -      Apr11 ?        00:00:00 [watchdog/5]
+1 S root          43       2  0 -40   - -     0 -      Apr11 ?        00:00:00 [migration/5]
+1 S root          44       2  0  80   0 -     0 -      Apr11 ?        00:00:17 [ksoftirqd/5]
+1 I root          46       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [kworker/5:0H-events_highpri]
+5 S root          53       2  0  80   0 -     0 -      Apr11 ?        00:00:00 [kdevtmpfs]
+1 I root          54       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [netns]
+1 S root          55       2  0  80   0 -     0 -      Apr11 ?        00:00:00 [kauditd]
+1 S root          57       2  0  80   0 -     0 -      Apr11 ?        00:00:00 [khungtaskd]
+1 S root          58       2  0  80   0 -     0 -      Apr11 ?        00:00:00 [oom_reaper]
+1 I root          59       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [writeback]
+1 S root          60       2  0  80   0 -     0 -      Apr11 ?        00:00:00 [kcompactd0]
+1 S root          61       2  0  85   5 -     0 -      Apr11 ?        00:00:00 [ksmd]
+1 S root          62       2  0  99  19 -     0 -      Apr11 ?        00:00:02 [khugepaged]
+1 I root          63       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [crypto]
+1 I root          64       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [kintegrityd]
+1 I root          65       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [kblockd]
+1 I root          66       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [blkcg_punt_bio]
+1 I root          67       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [tpm_dev_wq]
+1 I root          68       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [md]
+1 I root          69       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [edac-poller]
+1 S root          70       2  0 -40   - -     0 -      Apr11 ?        00:00:00 [watchdogd]
+1 I root          71       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [kworker/1:1H-kblockd]
+1 S root         106       2  0  80   0 -     0 -      Apr11 ?        00:00:00 [kswapd0]
+1 I root         208       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [kthrotld]
+1 S root         209       2  0   9   - -     0 -      Apr11 ?        00:00:00 [irq/122-aerdrv]
+1 S root         210       2  0   9   - -     0 -      Apr11 ?        00:00:00 [irq/122-pcie-dp]
+1 I root         211       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [acpi_thermal_pm]
+1 I root         212       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [kmpath_rdacd]
+1 I root         213       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [kaluad]
+1 I root         215       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [ipv6_addrconf]
+1 I root         217       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [kstrp]
+1 I root         303       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [kworker/2:1H-kblockd]
+1 I root         309       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [kworker/0:1H-kblockd]
+1 I root         340       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [kworker/5:1H-events_highpri]
+1 I root         342       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [kworker/4:1H-events_highpri]
+1 I root         344       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [kworker/3:1H-events_highpri]
+1 I root         560       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [ata_sff]
+1 I root         561       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [nvme-wq]
+1 I root         562       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [nvme-reset-wq]
+1 I root         563       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [nvme-delete-wq]
+1 S root         566       2  0   9   - -     0 -      Apr11 ?        00:00:00 [card0-crtc0]
+1 S root         567       2  0   9   - -     0 -      Apr11 ?        00:00:00 [card0-crtc1]
+1 S root         568       2  0   9   - -     0 -      Apr11 ?        00:00:00 [card0-crtc2]
+1 S root         574       2  0  80   0 -     0 -      Apr11 ?        00:00:00 [scsi_eh_0]
+1 I root         575       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [scsi_tmf_0]
+1 S root         576       2  0  80   0 -     0 -      Apr11 ?        00:00:00 [scsi_eh_1]
+1 I root         583       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [scsi_tmf_1]
+1 S root         597       2  0  80   0 -     0 -      Apr11 ?        00:00:00 [scsi_eh_2]
+1 I root         603       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [scsi_tmf_2]
+1 S root         607       2  0  80   0 -     0 -      Apr11 ?        00:00:00 [scsi_eh_3]
+1 I root         614       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [scsi_tmf_3]
+5 S root         689       1  0  60 -20 -  3007 -      Apr11 ?        00:02:25 @sbin/mount.ntfs-3g -o relatime,big_write,umask=022,dmask=022,fmask=177 /dev/nvme0n1p2 /host/
+5 S root         894       1  0  60 -20 - 165954 -     Apr11 ?        00:02:25 @sbin/vbootdsk --nvram /vdsk -o noatime,big_writes,allow_other,kernel_cache
+5 S root         913       2  0  60 -20 -     0 -      Apr11 ?        00:00:32 [loop0]
+1 I root         916       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [kdmflush/253:0]
+1 I root         925       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [kdmflush/253:1]
+1 S root         950       2  0  80   0 -     0 -      Apr11 ?        00:00:12 [jbd2/dm-1-8]
+1 I root         951       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [ext4-rsv-conver]
+4 S root        1145       1  0  80   0 - 36975 -      Apr11 ?        00:00:03 /usr/lib/systemd/systemd-journald
+4 S root        1179       1  0  80   0 - 29295 -      Apr11 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+1 S root        1220       2  0   9   - -     0 -      Apr11 ?        00:00:00 [irq/134-mei_me]
+4 S rpc         1324       1  0  80   0 - 16804 -      Apr11 ?        00:00:00 /usr/bin/rpcbind -w -f
+5 S root        1328       1  0  76  -4 - 35505 -      Apr11 ?        00:00:01 /sbin/auditd
+4 S root        1330    1328  0  76  -4 - 12159 -      Apr11 ?        00:00:00 /usr/sbin/sedispatch
+1 I root        1340       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [rpciod]
+1 I root        1341       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [xprtiod]
+4 S root        1357       1  0  80   0 - 110202 -     Apr11 ?        00:00:00 /usr/sbin/sssd -i --logger=files
+4 S dbus        1358       1  0  80   0 - 21545 -      Apr11 ?        00:02:44 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+4 S root        1359       1  0  80   0 -  4576 -      Apr11 ?        00:00:00 /usr/sbin/mcelog --ignorenodev --daemon --foreground
+4 S root        1365       1  0  80   0 - 12569 -      Apr11 ?        00:00:00 /usr/sbin/smartd -n -q never
+4 S root        1368       1  0  80   0 - 31241 -      Apr11 ?        00:00:05 /usr/sbin/irqbalance --foreground
+4 S root        1369       1  0  80   0 - 139025 -     Apr11 ?        00:00:00 /usr/libexec/udisks2/udisksd
+4 S libstor+    1370       1  0  80   0 -  4936 -      Apr11 ?        00:00:00 /usr/bin/lsmd -d
+4 S polkitd     1372       1  0  80   0 - 479965 -     Apr11 ?        00:01:55 /usr/lib/polkit-1/polkitd --no-debug
+4 S avahi       1378       1  0  80   0 - 21338 -      Apr11 ?        00:00:29 avahi-daemon: running [std1dc19.local]
+4 S rtkit       1380       1  0  81   1 - 50717 -      Apr11 ?        00:00:01 /usr/libexec/rtkit-daemon
+4 S root        1384       1  0  80   0 - 19785 -      Apr11 ?        00:00:00 /usr/lib/systemd/systemd-machined
+4 S root        1390       1  0  80   0 - 154458 -     Apr11 ?        00:00:14 /usr/sbin/NetworkManager --no-daemon
+4 S rngd        1393       1  0  80   0 - 94142 -      Apr11 ?        00:00:48 /usr/sbin/rngd -f --fill-watermark=0 -x pkcs11 -x nist
+5 S chrony      1399       1  0  80   0 - 33143 -      Apr11 ?        00:00:00 /usr/sbin/chronyd
+1 S root        1401       1  0  80   0 - 59074 -      Apr11 ?        00:00:03 /bin/bash /usr/sbin/ksmtuned
+1 S avahi       1490    1378  0  80   0 - 21306 -      Apr11 ?        00:00:00 avahi-daemon: chroot helper
+4 S root        1503       1  0  80   0 - 23632 -      Apr11 ?        00:00:00 /usr/sbin/sshd -D -oCiphers=aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes256-ctr,aes256-cbc,aes128-gcm@openssh.com,aes128-ctr,aes128-cbc -oMACs=hmac-sha2-256-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha2-256,hmac-sha1,umac-128@openssh.com,hmac-sha2-512 -oGSSAPIKexAlgorithms=gss-curve25519-sha256-,gss-nistp256-sha256-,gss-group14-sha256-,gss-group16-sha512-,gss-gex-sha1-,gss-group14-sha1- -oKexAlgorithms=curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1 -oHostKeyAlgorithms=ecdsa-sha2-nistp256,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,rsa-sha2-256,rsa-sha2-256-cert-v01@openssh.com,rsa-sha2-512,rsa-sha2-512-cert-v01@openssh.com,ssh-rsa,ssh-rsa-cert-v01@openssh.com -oPubkeyAcceptedKeyTypes=ecdsa-sha2-nistp256,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,rsa-sha2-256,rsa-sha2-256-cert-v01@openssh.com,rsa-sha2-512,rsa-sha2-512-cert-v01@openssh.com,ssh-rsa,ssh-rsa-cert-v01@openssh.com -oCASignatureAlgorithms=ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,ssh-ed25519,rsa-sha2-256,rsa-sha2-512,ssh-rsa
+4 S zabbix      1505       1  0  80   0 - 389251 -     Apr11 ?        00:06:23 /usr/sbin/zabbix_agent2 -c /etc/zabbix/zabbix_agent2.conf
+1 S root        1532       1  0  80   0 - 62889 -      Apr11 ?        00:00:00 /usr/bin/rhsmcertd
+4 S root        1574       1  0  80   0 - 68089 -      Apr11 ?        00:00:00 /opt/eset/efs/sbin/startd
+1 I root        1577       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [iprt-VBoxWQueue]
+1 S root        1580       1  0  80   0 - 77894 -      Apr11 ?        00:00:00 /usr/sbin/gssproxy -D
+5 S root        1583       2  0  80   0 -     0 -      Apr11 ?        00:00:00 [iprt-VBoxTscThr]
+5 S root        1599       1  0  80   0 - 179713 -     Apr11 ?        00:03:05 /opt/eset/RemoteAdministrator/Agent/ERAAgent --daemon --pidfile /var/run/eraagent.pid
+4 S root        1631       1  0  80   0 - 105496 -     Apr11 ?        00:00:00 /usr/sbin/ModemManager
+4 S root        1644    1357  0  80   0 - 102841 -     Apr11 ?        00:00:01 /usr/libexec/sssd/sssd_be --domain implicit_files --uid 0 --gid 0 --logger=files
+4 S root        1645    1357  0  80   0 - 134948 -     Apr11 ?        00:03:10 /usr/libexec/sssd/sssd_be --domain LDAP --uid 0 --gid 0 --logger=files
+4 S root        1652       1  0  80   0 - 70320 -      Apr11 ?        00:00:08 /usr/sbin/rsyslogd -n
+5 S rpcuser     1678       1  0  80   0 - 18477 -      Apr11 ?        00:00:00 /usr/sbin/rpc.statd
+0 S root        1679       1  0  80   0 - 58945 -      Apr11 ?        00:01:10 /bin/bash /usr/bin/vboot-agent-service
+4 S root        1686    1679 42  80   0 - 329479 -     Apr11 ?        1-15:27:10 /usr/bin/vboot-agent
+4 S eset-ef+    1734    1574  0  80   0 - 68185 -      Apr11 ?        00:00:00 /opt/eset/efs/lib/logd
+4 S root        1767    1357  0  80   0 - 112909 -     Apr11 ?        00:00:34 /usr/libexec/sssd/sssd_nss --uid 0 --gid 0 --logger=files
+4 S root        1768    1357  0  80   0 - 107576 -     Apr11 ?        00:00:01 /usr/libexec/sssd/sssd_pam --uid 0 --gid 0 --logger=files
+4 S root        1769    1357  0  80   0 - 105456 -     Apr11 ?        00:00:00 /usr/libexec/sssd/sssd_autofs --uid 0 --gid 0 --logger=files
+4 S root        1774       1  0  80   0 - 211080 -     Apr11 ?        00:00:05 /usr/sbin/automount --systemd-service --dont-check-daemon
+4 S root        1775       1  0  80   0 - 23203 -      Apr11 ?        00:00:23 /usr/lib/systemd/systemd-logind
+4 S root        1776       1  0  80   0 - 134791 -     Apr11 ?        00:00:01 /usr/libexec/accounts-daemon
+4 S root        1778       1  0  80   0 - 89248 -      Apr11 ?        00:00:00 /usr/sbin/cupsd -l
+4 S root        1781       1  0  80   0 - 136633 -     Apr11 ?        00:00:00 /usr/sbin/gdm
+4 S root        1783       1  0  80   0 - 11009 -      Apr11 ?        00:00:00 /usr/sbin/atd -f
+4 S root        1788       1  0  80   0 - 61689 -      Apr11 ?        00:00:00 /usr/sbin/crond -n
+4 S eset-ef+    1799    1574  0  80   0 - 340172 -     Apr11 ?        00:04:15 /opt/eset/efs/lib/scand
+4 S root        1800    1574  0  80   0 - 72774 -      Apr11 ?        00:00:00 /opt/eset/efs/lib/sysinfod
+4 S eset-ef+    1816    1574  0  80   0 - 91049 -      Apr11 ?        00:04:50 /opt/eset/efs/lib/updated
+5 S root        1837       1  0  80   0 - 30783 -      Apr11 ?        00:00:01 /usr/libexec/postfix/master -w
+4 S eset-ef+    1853    1574  0  80   0 - 75404 -      Apr11 ?        00:00:02 /opt/eset/efs/lib/licensed
+4 S postfix     1860    1837  0  80   0 - 37624 -      Apr11 ?        00:00:00 qmgr -l -t unix -u
+4 S root        1861    1574  0  80   0 - 68050 -      Apr11 ?        00:00:00 /opt/eset/efs/lib/utild
+4 S eset-ef+    1868    1574  0  80   0 - 142597 -     Apr11 ?        00:00:01 /opt/eset/efs/lib/confd
+4 S root        1896    1574  0  80   0 - 182646 -     Apr11 ?        00:01:12 /opt/eset/efs/lib/oaeventd
+1 I root        1908       2  0  60 -20 -     0 -      Apr11 ?        00:00:00 [nfsiod]
+1 S root        1931       2  0  80   0 -     0 -      Apr11 ?        00:00:00 [NFSv4 callback]
+5 S dnsmasq     2072       1  0  80   0 - 18355 -      Apr11 ?        00:00:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+1 S root        2073    2072  0  80   0 - 18329 -      Apr11 ?        00:00:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+1 S root        2151       2  0  80   0 -     0 -      Apr11 ?        00:00:00 [lockd]
+4 S root        2281       1  0  80   0 - 132722 -     Apr11 ?        00:00:00 /usr/libexec/upowerd
+4 S root        2315       1  0  80   0 - 315014 -     Apr11 ?        00:00:28 /usr/libexec/packagekitd
+4 S root        2316       1  0  80   0 - 15314 -      Apr11 ?        00:00:00 /usr/sbin/wpa_supplicant -c /etc/wpa_supplicant/wpa_supplicant.conf -u -s
+4 S colord      2384       1  0  80   0 - 139563 -     Apr11 ?        00:00:00 /usr/libexec/colord
+4 S root       12657       1  0  80   0 - 22402 -      Apr11 ?        00:00:00 /usr/lib/systemd/systemd --user
+5 S root       12658   12657  0  80   0 - 80813 -      Apr11 ?        00:00:00 (sd-pam)
+4 S s1300020  330585       1  0  80   0 - 22437 -      Apr12 ?        00:00:00 /usr/lib/systemd/systemd --user
+5 S s1300020  330590  330585  0  80   0 - 80813 -      Apr12 ?        00:00:00 (sd-pam)
+4 S root      400599       1  0  80   0 - 119801 -     Apr12 ?        00:00:00 gdm-session-worker [pam/gdm-password]
+0 S s1300020  402419  330585  0  80   0 - 19100 -      Apr12 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+4 S root     1618440    1781  0  80   0 - 142155 -     08:54 ?        00:00:00 gdm-session-worker [pam/gdm-password]
+4 S s1300041 1618486       1  0  80   0 - 22450 do_epo 08:54 ?        00:00:00 /usr/lib/systemd/systemd --user
+5 S s1300041 1618489 1618486  0  80   0 - 80839 -      08:54 ?        00:00:00 (sd-pam)
+0 S s1300041 1618508 1618486  0  80   0 - 673791 x64_sy 08:54 ?       00:00:48 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+1 S s1300041 1618516       1  0  80   0 - 147682 -     08:54 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+4 S s1300041 1618554 1618440  0  80   0 - 111217 x64_sy 08:54 tty2    00:00:00 /usr/libexec/gdm-x-session --register-session --run-script gnome-session
+4 S s1300041 1618556 1618554  0  80   0 - 324626 -     08:54 tty2     00:01:05 /usr/libexec/Xorg vt2 -displayfd 3 -auth /run/user/10041/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -novtswitch -verbose 3
+0 S s1300041 1618568 1618486  0  80   0 - 19353 do_epo 08:54 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+0 S s1300041 1618595 1618554  0  80   0 - 217194 x64_sy 08:54 tty2    00:00:00 /usr/libexec/gnome-session-binary
+0 S s1300041 1618709 1618486  0  80   0 - 93068 x64_sy 08:54 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+0 S s1300041 1618714 1618709  0  80   0 - 19132 do_epo 08:54 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+0 S s1300041 1618716 1618486  0  80   0 - 62216 x64_sy 08:54 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+0 S s1300041 1618742 1618595  0  80   0 - 1272782 -    08:54 tty2     00:01:07 /usr/bin/gnome-shell
+0 S s1300041 1618755 1618486  0  80   0 - 130696 x64_sy 08:54 ?       00:00:00 /usr/libexec/gvfsd
+0 S s1300041 1618760 1618486  0  80   0 - 111333 -     08:54 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/10041/gvfs -f -o big_writes
+0 S s1300041 1618782 1618742  0  80   0 - 149742 x64_sy 08:54 tty2    00:00:05 ibus-daemon --xim --panel disable
+0 S s1300041 1618783 1618486  0  80   0 - 131403 x64_sy 08:54 ?       00:00:00 /usr/libexec/xdg-permission-store
+0 S s1300041 1618789 1618782  0  80   0 - 128140 x64_sy 08:54 tty2    00:00:00 /usr/libexec/ibus-dconf
+0 S s1300041 1618791 1618782  0  80   0 - 166530 x64_sy 08:54 tty2    00:00:01 /usr/libexec/ibus-extension-gtk3
+0 S s1300041 1618795       1  0  80   0 - 145934 x64_sy 08:54 tty2    00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+0 S s1300041 1618798 1618486  0  80   0 - 128139 x64_sy 08:54 ?       00:00:00 /usr/libexec/ibus-portal
+0 S s1300041 1618809 1618486  0  80   0 - 269898 x64_sy 08:54 ?       00:00:00 /usr/libexec/gnome-shell-calendar-server
+0 S s1300041 1618814 1618486  0  80   0 - 447386 -     08:54 ?        00:00:00 /usr/libexec/evolution-source-registry
+0 S s1300041 1618826 1618486  0  80   0 - 53758 x64_sy 08:54 ?        00:00:00 /usr/libexec/dconf-service
+0 S s1300041 1618834 1618486  0  80   0 - 155188 x64_sy 08:54 ?       00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+0 S s1300041 1618839 1618486  0  80   0 - 147804 x64_sy 08:54 ?       00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+0 S s1300041 1618844 1618486  0  80   0 - 127626 x64_sy 08:54 ?       00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+0 S s1300041 1618848 1618486  0  80   0 - 127058 x64_sy 08:54 ?       00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+0 S s1300041 1618852 1618486  0  80   0 - 260164 x64_sy 08:54 ?       00:00:00 /usr/libexec/goa-daemon
+0 S s1300041 1618862 1618486  0  80   0 - 163083 -     08:54 ?        00:00:00 /usr/libexec/goa-identity-service
+0 S s1300041 1618864 1618486  0  80   0 - 130802 x64_sy 08:54 ?       00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+0 S s1300041 1618877 1618595  0  80   0 - 189484 -     08:54 tty2     00:00:00 /usr/libexec/gsd-power
+0 S s1300041 1618878 1618595  0  80   0 - 143111 -     08:54 tty2     00:00:00 /usr/libexec/gsd-print-notifications
+0 S s1300041 1618879 1618595  0  80   0 - 165340 x64_sy 08:54 tty2    00:00:00 /usr/libexec/gsd-rfkill
+0 S s1300041 1618880 1618595  0  80   0 - 127284 x64_sy 08:54 tty2    00:00:00 /usr/libexec/gsd-screensaver-proxy
+0 S s1300041 1618881 1618595  0  80   0 - 166299 x64_sy 08:54 tty2    00:00:00 /usr/libexec/gsd-sharing
+0 S s1300041 1618887 1618595  0  80   0 - 171218 x64_sy 08:54 tty2    00:00:00 /usr/libexec/gsd-smartcard
+0 S s1300041 1618892 1618595  0  80   0 - 183566 x64_sy 08:54 tty2    00:00:00 /usr/libexec/gsd-xsettings
+0 S s1300041 1618895 1618595  0  80   0 - 147986 x64_sy 08:54 tty2    00:00:00 /usr/libexec/gsd-account
+4 S root     1618899       1  0  80   0 - 102456 -     08:54 ?        00:00:01 /usr/libexec/sssd/sssd_kcm --uid 0 --gid 0 --logger=files
+0 S s1300041 1618909 1618595  0  80   0 - 144287 x64_sy 08:54 tty2    00:00:00 /usr/libexec/gsd-sound
+0 S s1300041 1618910 1618595  0  80   0 - 166025 x64_sy 08:54 tty2    00:00:00 /usr/libexec/gsd-wacom
+0 S s1300041 1618914 1618595  0  80   0 - 127861 x64_sy 08:54 tty2    00:00:00 /usr/libexec/gsd-a11y-settings
+0 S s1300041 1618915 1618595  0  80   0 - 145823 x64_sy 08:54 tty2    00:00:00 /usr/libexec/gsd-clipboard
+0 S s1300041 1618919 1618595  0  80   0 - 208580 x64_sy 08:54 tty2    00:00:00 /usr/libexec/gsd-color
+0 S s1300041 1618921 1618595  0  80   0 - 167461 x64_sy 08:54 tty2    00:00:00 /usr/libexec/gsd-datetime
+0 S s1300041 1618923 1618595  0  80   0 - 149681 -     08:54 tty2     00:00:00 /usr/libexec/gsd-housekeeping
+0 S s1300041 1618926 1618595  0  80   0 - 183266 x64_sy 08:54 tty2    00:00:00 /usr/libexec/gsd-keyboard
+0 S s1300041 1618931 1618595  0  80   0 - 332722 x64_sy 08:54 tty2    00:00:00 /usr/libexec/gsd-media-keys
+0 S s1300041 1618932 1618595  0  80   0 - 127895 x64_sy 08:54 tty2    00:00:00 /usr/libexec/gsd-mouse
+0 S s1300041 1618978 1618595  0  99   - - 208200 x64_sy 08:54 tty2    00:00:00 /usr/libexec/tracker-miner-apps
+0 S s1300041 1618981 1618595  0  99  19 - 265906 -     08:54 tty2     00:00:00 /usr/libexec/tracker-miner-fs
+0 S s1300041 1618982 1618595  0  80   0 - 55664 -      08:54 tty2     00:00:00 /bin/bash /usr/bin/vboot-autostart desktop
+0 S s1300041 1618998 1618595  0  80   0 - 345059 -     08:54 tty2     00:00:00 /usr/libexec/evolution/evolution-alarm-notify
+0 S s1300041 1619006 1618595  0  80   0 - 327631 -     08:54 tty2     00:00:00 /usr/bin/gnome-software --gapplication-service
+0 S s1300041 1619026 1618486  0  80   0 - 226097 x64_sy 08:54 ?       00:00:00 /usr/libexec/tracker-store
+0 S s1300041 1619034 1618595  0  80   0 - 75339 x64_sy 08:54 tty2     00:00:00 /usr/libexec/gsd-disk-utility-notify
+0 S s1300041 1619052 1618782  0  80   0 - 109721 x64_sy 08:54 tty2    00:00:01 /usr/libexec/ibus-engine-simple
+0 S s1300041 1619076       1  0  80   0 - 181887 x64_sy 08:54 tty2    00:00:00 /usr/libexec/gsd-printer
+0 S s1300041 1619090 1618486  0  80   0 - 347979 x64_sy 08:54 ?       00:00:00 /usr/libexec/evolution-calendar-factory
+0 S s1300041 1619128 1619090  0  80   0 - 434796 x64_sy 08:54 ?       00:00:00 /usr/libexec/evolution-calendar-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1619090x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1619090/2
+0 S s1300041 1619165 1618486  0  80   0 - 327943 x64_sy 08:54 ?       00:00:00 /usr/libexec/evolution-addressbook-factory
+0 S s1300041 1619208 1619165  0  80   0 - 397410 x64_sy 08:54 ?       00:00:00 /usr/libexec/evolution-addressbook-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1619165x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1619165/2
+4 S root     1619218       1  0  80   0 - 215667 -     08:54 ?        00:00:00 /usr/libexec/fwupd/fwupd
+0 S s1300041 1619220 1618486  0  80   0 - 109198 x64_sy 08:54 ?       00:00:00 /usr/libexec/gvfsd-metadata
+4 S s1300041 1619270 1618742  1  80   0 - 1208851 x64_sy 08:54 tty2   00:02:16 /usr/lib64/firefox/firefox
+4 S s1300041 1619522 1619270  0  80   0 - 709576 x64_sy 08:54 tty2    00:00:01 /usr/lib64/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 5047 -prefMapSize 239042 -jsInit 285716 -parentBuildID 20220310173454 -appdir /usr/lib64/firefox/browser 1619270 tab
+4 S s1300041 1619579 1619270  0  80   0 - 714287 x64_sy 08:54 tty2    00:00:01 /usr/lib64/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 5842 -prefMapSize 239042 -jsInit 285716 -parentBuildID 20220310173454 -appdir /usr/lib64/firefox/browser 1619270 tab
+1 I root     1619859       2  0  80   0 -     0 -      08:54 ?        00:00:00 [kworker/1:3-cgroup_pidlist_destroy]
+4 S s1300041 1619962 1619270  0  80   0 - 724845 x64_sy 08:55 tty2    00:00:03 /usr/lib64/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 8364 -prefMapSize 239042 -jsInit 285716 -parentBuildID 20220310173454 -appdir /usr/lib64/firefox/browser 1619270 tab
+0 S s1300041 1619994 1618782  0  80   0 - 167497 -     08:55 tty2     00:00:00 /usr/libexec/ibus-engine-kkc --ibus
+1 I root     1622041       2  0  80   0 -     0 -      09:00 ?        00:00:00 [kworker/0:2-events]
+0 S s1300041 1623089 1618516  0  80   0 -  6860 -      09:04 ?        00:00:00 /usr/bin/ssh-agent -D -a /run/user/10041/keyring/.ssh
+0 S s1300041 1640245       1  0  80   0 - 118473 -     09:49 tty2     00:00:00 /usr/lib64/speech-dispatcher-modules/sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+0 S s1300041 1640253       1  0  80   0 - 118473 -     09:49 tty2     00:00:00 /usr/lib64/speech-dispatcher-modules/sd_cicero /etc/speech-dispatcher/modules/cicero.conf
+1 Z s1300041 1640254 1640253  0  80   0 -     0 -      09:49 tty2     00:00:00 [sd_cicero] <defunct>
+0 S s1300041 1640257       1  0  80   0 - 118476 -     09:49 tty2     00:00:00 /usr/lib64/speech-dispatcher-modules/sd_generic /etc/speech-dispatcher/modules/generic.conf
+0 S s1300041 1640261       1  0  80   0 - 194377 -     09:49 tty2     00:00:00 /usr/lib64/speech-dispatcher-modules/sd_espeak-ng /etc/speech-dispatcher/modules/espeak-ng.conf
+1 S s1300041 1640267       1  0  80   0 - 102763 x64_sy 09:49 ?       00:00:00 /usr/bin/speech-dispatcher --spawn --communication-method unix_socket --socket-path /run/user/10041/speech-dispatcher/speechd.sock
+4 S root     1641714    1503  0  80   0 - 41481 -      09:53 ?        00:00:00 sshd: s1300074 [priv]
+4 S s1300074 1641768       1  0  80   0 - 22380 -      09:54 ?        00:00:00 /usr/lib/systemd/systemd --user
+5 S s1300074 1641776 1641768  0  80   0 - 80839 -      09:54 ?        00:00:00 (sd-pam)
+0 S s1300074 1641803 1641768  0  80   0 - 127000 -     09:54 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+5 S s1300074 1641805 1641714  0  80   0 - 41481 -      09:54 ?        00:00:00 sshd: s1300074@pts/1
+0 S s1300074 1641816 1641805  0  80   0 - 58877 -      09:54 pts/1    00:00:00 -bash
+0 S s1300074 1641939 1641768  0  80   0 - 19100 -      09:54 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+4 S root     1646634       1  0  80   0 - 63658 -      10:05 ?        00:00:00 vmstat 300 11
+0 S s1300041 1649751 1618755  0  80   0 - 149707 x64_sy 10:12 ?       00:00:00 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+0 S s1300041 1649762 1618755  0  80   0 - 168714 x64_sy 10:12 ?       00:00:00 /usr/libexec/gvfsd-network --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+0 S s1300041 1649778 1618755  0  80   0 - 153761 x64_sy 10:12 ?       00:00:00 /usr/libexec/gvfsd-dnssd --spawner :1.20 /org/gtk/gvfs/exec_spaw/3
+1 I root     1651779       2  0  60 -20 -     0 -      10:17 ?        00:00:00 [kworker/u13:3-xprtiod]
+1 I root     1654854       2  0  80   0 -     0 -      10:24 ?        00:00:00 [kworker/u12:3-events_unbound]
+1 I root     1655361       2  0  80   0 -     0 -      10:25 ?        00:00:00 [kworker/3:3-events]
+4 S s1300041 1656676 1619270  0  80   0 - 720202 x64_sy 10:29 tty2    00:00:04 /usr/lib64/firefox/firefox -contentproc -childID 18 -isForBrowser -prefsLen 9316 -prefMapSize 239042 -jsInit 285716 -parentBuildID 20220310173454 -appdir /usr/lib64/firefox/browser 1619270 tab
+4 S s1300041 1656752 1619270  0  80   0 - 721802 x64_sy 10:29 tty2    00:00:00 /usr/lib64/firefox/firefox -contentproc -childID 19 -isForBrowser -prefsLen 9316 -prefMapSize 239042 -jsInit 285716 -parentBuildID 20220310173454 -appdir /usr/lib64/firefox/browser 1619270 tab
+1 I root     1657368       2  0  80   0 -     0 -      10:30 ?        00:00:00 [kworker/2:1-cgroup_pidlist_destroy]
+1 I root     1657374       2  0  80   0 -     0 -      10:30 ?        00:00:00 [kworker/5:1-cgroup_pidlist_destroy]
+4 S postfix  1657600    1837  0  80   0 - 37611 -      10:30 ?        00:00:00 pickup -l -t unix -u
+1 I root     1658556       2  0  80   0 -     0 -      10:33 ?        00:00:00 [kworker/u12:2-i915]
+4 S root     1659252       1  0  80   0 - 63658 -      10:35 ?        00:00:00 vmstat 300 11
+1 I root     1659381       2  0  80   0 -     0 -      10:35 ?        00:00:00 [kworker/4:2-mm_percpu_wq]
+1 I root     1661130       2  0  60 -20 -     0 -      10:39 ?        00:00:00 [kworker/u13:0-xprtiod]
+1 I root     1661560       2  0  80   0 -     0 -      10:40 ?        00:00:00 [kworker/0:1-cgroup_pidlist_destroy]
+1 I root     1661820       2  0  80   0 -     0 -      10:40 ?        00:00:00 [kworker/u12:0-rpciod]
+1 I root     1661824       2  0  80   0 -     0 -      10:40 ?        00:00:00 [kworker/u12:5-rpciod]
+1 I root     1661907       2  0  80   0 -     0 -      10:41 ?        00:00:00 [kworker/5:2-events]
+1 I root     1662030       2  0  80   0 -     0 -      10:41 ?        00:00:00 [kworker/1:0-mm_percpu_wq]
+0 S s1300041 1662518 1618486  0  80   0 - 250172 -     10:42 ?        00:00:00 /usr/libexec/gnome-terminal-server
+0 S s1300041 1662528 1662518  0  80   0 - 58875 -      10:42 pts/0    00:00:00 bash
+1 I root     1663913       2  0  80   0 -     0 -      10:45 ?        00:00:00 [kworker/4:1-events]
+1 I root     1663917       2  0  80   0 -     0 -      10:45 ?        00:00:00 [kworker/2:2-events]
+4 S s1300041 1664665 1619270  0  80   0 - 717931 x64_sy 10:47 tty2    00:00:00 /usr/lib64/firefox/firefox -contentproc -childID 20 -isForBrowser -prefsLen 9316 -prefMapSize 239042 -jsInit 285716 -parentBuildID 20220310173454 -appdir /usr/lib64/firefox/browser 1619270 tab
+1 I root     1664687       2  0  80   0 -     0 -      10:47 ?        00:00:00 [kworker/3:1-events]
+4 S s1300041 1664771 1619270  0  80   0 - 699665 x64_sy 10:47 tty2    00:00:00 /usr/lib64/firefox/firefox -contentproc -childID 21 -isForBrowser -prefsLen 9316 -prefMapSize 239042 -jsInit 285716 -parentBuildID 20220310173454 -appdir /usr/lib64/firefox/browser 1619270 tab
+1 I root     1665239       2  0  60 -20 -     0 -      10:48 ?        00:00:00 [kworker/u13:1-i915_flip]
+1 I root     1666085       2  0  80   0 -     0 -      10:50 ?        00:00:00 [kworker/5:0-events_power_efficient]
+0 S s1300041 1666706 1618982  0  80   0 - 54270 hrtime 10:52 tty2     00:00:00 sleep 30
+0 S root     1666765    1401  0  80   0 - 54270 -      10:52 ?        00:00:00 sleep 60
+1 I root     1666766       2  0  80   0 -     0 -      10:52 ?        00:00:00 [kworker/1:1]
+0 S root     1666823    1679  0  80   0 - 54270 -      10:52 ?        00:00:00 sleep 1
+4 R s1300041 1666824 1662528  0  80   0 - 67138 -      10:52 pts/0    00:00:00 ps -elf

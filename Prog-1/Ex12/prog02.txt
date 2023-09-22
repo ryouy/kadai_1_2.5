@@ -1,0 +1,11 @@
+//prog02.txt
+単体テストコンパイル方法
+gcc -Djudge prog02_main.c
+gcc -Djudge prog02_calc.c
+
+結合テストコンパイル方法
+gcc -c prog02_main.c
+gcc -c prog02_calc.c
+gcc prog02_main.o prog02_calc.o
+
+

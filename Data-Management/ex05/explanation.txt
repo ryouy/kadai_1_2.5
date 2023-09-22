@@ -1,0 +1,14 @@
+Problem B. Music streaming platform
+This model follwos problem discriptions correctly I hope.
+I created this ER model with paying
+attention to people who use and manage daily.
+You can find programmer entity who manages this
+platform and get salaly from music label.
+Then user can give evaluation to each songs and
+albums. Also, passward is a week attribute.
+Futhermore, I think artist can join some bands usually,
+so I described about their information.
+Finally, music label operates this platform and ask
+programmers to manage it.
+By the way, I always use the sorting function in playlists.
+So I implemented it.

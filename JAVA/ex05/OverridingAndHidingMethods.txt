@@ -1,0 +1,7 @@
+1. methodTwo in classB is overriding methodTwo in classA.
+
+2. static methodOne in classB is hiding methodOne in classA.
+
+3. methodThree in classB is a new method that classA doesn't
+have and also, methodFour in classB is hiding methodFour in
+classA.

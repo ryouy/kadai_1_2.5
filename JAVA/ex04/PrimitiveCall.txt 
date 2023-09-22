@@ -1,0 +1,4 @@
+In this program, primitiveCall method which has x and y values already called movePoint method.
+In movePoint method, this method changed both x and y values to othe ones, however, it is just
+using arguments from primitiveCall. In short, movePoint method just uses the copy of x and y
+from primitiveCall method and original values of x and y in primitiveCall method are not changed.

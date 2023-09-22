@@ -1,0 +1,7 @@
+Firstly, test  method was called and Point object was created. At this
+time, each point is x=8, y=5. Then movePoint was called and changed x
+and y by using arguments. Finally in test method,printed out Point
+method'seach x and y point coming from arguments. However, at this
+moment, in movePoint method,a new Point object was created, but p is
+in the scope of movePoint method. So there is no effect on Point object.
+Thus the last output is same as the first Point object still.
